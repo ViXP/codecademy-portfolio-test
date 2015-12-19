@@ -1,0 +1,14 @@
+// COMMON USE MIXINS
+
+@mixin blocks-colors() {
+	@each $block, $value in $bg_color {
+  	#{$block} {
+    	background-color: $value;
+    }
+  }
+	@each $block, $value in $text_color {
+  	#{$block} {
+    	color: $value;
+    }
+  }	
+}

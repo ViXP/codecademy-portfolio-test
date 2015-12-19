@@ -1,10 +1,13 @@
 Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
-
   # You can have the root of your site routed with "root"
+  get 'add_new' => 'works#new', as: :new_work
+  get 'portfolio' => 'works#index', as: :works
+  post 'portfolio' => 'works#create'
+  #resources :works
   root 'pages#welcome'
-
+  # get 'portfolio' => 'works#index', as: :portfolio
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

@@ -1,0 +1,22 @@
+// VISUAL THEME OF SITE
+
+/* Background colors */
+$bg_color: (
+	body: $black, 
+	header: $blue-dark, 
+	main: $blue, 
+	footer: $red
+);
+
+/* Text colors */
+$text_color: (
+	body: $green-light, 
+	header: $blue-light,
+	main: $red-light, 
+	footer: $blue
+);
+
+@include blocks-colors;
+
+/* Main font */
+$font-family: 'Raleway', sans-serif;
