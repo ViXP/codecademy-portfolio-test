@@ -2,21 +2,26 @@
 
 /* Background colors */
 $bg_color: (
-	body: $black, 
-	header: $blue-dark, 
-	main: $blue, 
-	footer: $red
+											body: $black, 
+  							header nav: $red-dark,
+											main: $blue-dark, 
+										footer: $red-dark
 );
 
 /* Text colors */
 $text_color: (
-	body: $green-light, 
-	header: $blue-light,
-	main: $red-light, 
-	footer: $blue
+											body: $green-light, 
+										header: $blue-light,
+  						header nav a: $red-light,
+  		'header nav a:hover': $green,
+											main: $red-light, 
+										footer: $blue
 );
 
 @include blocks-colors;
 
 /* Main font */
-$font-family: 'Raleway', sans-serif;
+							$font-family: 'Raleway', sans-serif;
+
+/* Border radius */
+$header__nav_border-radius: 2px;
