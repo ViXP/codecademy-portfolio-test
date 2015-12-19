@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'add_new' => 'works#new', as: :new_work
   get 'portfolio' => 'works#index', as: :works
   post 'portfolio' => 'works#create'
+  get 'about' => 'pages#about', as: :about
   #resources :works
   root 'pages#welcome'
   # get 'portfolio' => 'works#index', as: :portfolio
