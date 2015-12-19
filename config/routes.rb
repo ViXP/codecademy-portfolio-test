@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'portfolio' => 'works#index', as: :works
   post 'portfolio' => 'works#create'
   get 'about' => 'pages#about', as: :about
+  get 'contacts' => 'pages#contacts', as: :contacts
   #resources :works
   root 'pages#welcome'
   # get 'portfolio' => 'works#index', as: :portfolio
