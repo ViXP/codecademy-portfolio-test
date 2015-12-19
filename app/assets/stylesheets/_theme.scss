@@ -15,7 +15,7 @@ $text_color: (
   						header nav a: $red-light,
   		'header nav a:hover': $green,
 											main: $red-light, 
-										footer: $blue
+										footer: $white
 );
 
 @include blocks-colors;
@@ -23,5 +23,11 @@ $text_color: (
 /* Main font */
 							$font-family: 'Raleway', sans-serif;
 
-/* Border radius */
-$header__nav_border-radius: 2px;
+/* Borders */
+					 %header_border { border: 0; }
+			%header__nav_border { border-bottom: $red-light 1px solid; 
+														border-radius: 0 0 5px 5px; }
+			   	 	 %main_border { border: 0; 
+			   	 	 								border-radius: 20px 0 20px 0; }
+			 		 %footer_border { border-top: $red-light 1px solid; 
+			 		 									border-radius: 5px 5px 0 0; }
