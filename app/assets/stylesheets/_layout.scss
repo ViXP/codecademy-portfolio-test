@@ -1,11 +1,22 @@
 // MAIN LAYOUT
 
-html, body {
-	width: 100%;
+@include blocks-colors;
+
+html {
   height: 100%;
-  padding: 0;
-  margin: 0;
-  font: 18px/1.2rem $font-family;
+  font-family: $font-family;
+  @include device-media-query(desktop) { font-size: 16px; }
+  @include device-media-query(tablet) { font-size: 24px; } 
+  @include device-media-query(mobile) { font-size: 20px; } 
+  @include device-media-query(retina-x2) {font-size: 42px; }
+  
+  &, body {
+    min-height: 100%;
+    height: 100%;
+	  width: 100%;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 header {
@@ -16,6 +27,8 @@ header {
   & nav {  
     @extend %header__nav_border;
   	padding: 10px 20px;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
 
   	& a:hover {
     	text-decoration: none;
@@ -23,8 +36,8 @@ header {
   }
 
   & h1 {
-    font: bold 5rem/5rem $font-family;
-    letter-spacing: 1rem;
+    font-size: 5rem;
+    line-height: 5rem;
     padding: 10px;
     margin: 0;
   }
@@ -34,11 +47,13 @@ main {
   @extend %main_border;
   margin: 10px;
 	padding: 10px;
-  min-height: 750px;
+  height: 100%;
+  min-height: 800px;
 
   & h5 {
     font-variant: small-caps;
     font-style: italic;
+    font-size: 1.5rem;
   }
 
 }
@@ -50,10 +65,16 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
-  font: bold .7rem/.8rem $font-family;
+  font-size: .9rem;
+  line-height: 1rem;
+  font-weight: bold;
 
   & a {
     padding: 0 2px 5px 0;
     display: inline-block;
+
+    & img {
+      width: 1.4rem;
+    }
   }
 }

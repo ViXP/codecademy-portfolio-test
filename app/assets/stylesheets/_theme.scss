@@ -18,8 +18,6 @@ $text_color: (
 										footer: $white
 );
 
-@include blocks-colors;
-
 /* Main font */
 							$font-family: 'Raleway', sans-serif;
 
@@ -31,3 +29,7 @@ $text_color: (
 			   	 	 								border-radius: 20px 0 20px 0; }
 			 		 %footer_border { border-top: $red-light 1px solid; 
 			 		 									border-radius: 5px 5px 0 0; }
+
+/* Minimum devices width */
+			$mobile-device-width: 320px;
+			$tablet-device-width: 640px;

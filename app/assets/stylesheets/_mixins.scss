@@ -1,5 +1,6 @@
 // COMMON USE MIXINS
 
+/* creates styles for $bg_color and $text_color maps */
 @mixin blocks-colors() {
 	@each $block, $value in $bg_color {
   	#{$block} {
@@ -11,4 +12,20 @@
     	color: $value;
     }
   }	
+}
+
+/* styles depends on device type mixin */
+@mixin device-media-query($device) {
+  @if $device == mobile {
+    @media only screen and (max-width: $mobile-device-width) { @content; }
+  }
+  @else if $device == tablet {
+    @media only screen and (min-width: $mobile-device-width + 1) and (max-width: $tablet-device-width - 1) { @content; }
+  }
+  @else if $device == desktop {
+    @media only screen and (min-width: $tablet-device-width) { @content; }
+  }
+  @else if $device == retina-x2 {
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { @content; } 
+  }
 }
