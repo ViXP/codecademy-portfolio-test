@@ -1,0 +1,9 @@
+I"z(function() {
+  $(function() {
+    return $('.banner').unslider({
+      autoplay: true
+    });
+  });
+
+}).call(this);
+:ET

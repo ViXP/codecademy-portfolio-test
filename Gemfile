@@ -1,8 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'tzinfo-data', platforms: [:mingw, :mswin]
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.1'
+gem 'rails', '4.2.5.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: :development
 gem 'pg', '0.18.1', group: :production
@@ -41,3 +40,7 @@ gem "erb2haml", :group => :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+
+require 'rbconfig'
+gem 'wdm', '>= 0.1.0' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw|cygwin/i

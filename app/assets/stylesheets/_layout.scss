@@ -35,11 +35,19 @@ header {
     }
   }
 
-  & h1 {
+  & h1 {    
+    vertical-align: middle;
     font-size: 5rem;
     line-height: 5rem;
     padding: 10px;
     margin: 0;
+    display: inline-block;
+  }
+  & canvas {
+    vertical-align: middle;
+    width: 90px;
+    height: 90px;
+    display: inline-block;
   }
 }
 
