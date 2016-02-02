@@ -43,27 +43,30 @@ header {
     margin: 0;
     display: inline-block;
   }
-  & canvas {
-    vertical-align: middle;
-    width: 90px;
-    height: 90px;
-    display: inline-block;
-  }
 }
 
-main {
-  @extend %main_border;
-  margin: 10px;
-	padding: 10px;
+main {  
   height: 100%;
   min-height: 800px;
-
+  padding: 20px;
+  margin: 0 10px 10px 10px;
+  position: relative;
+  width: calc(100% - 20px);
+  & #bg {
+    @extend %main__bg_border;
+    opacity: 0.7;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
   & h5 {
     font-variant: small-caps;
     font-style: italic;
     font-size: 1.5rem;
   }
-
 }
 
 footer {

@@ -4,7 +4,7 @@
 $bg_color: (
                       body: $black, 
                 header nav: $red-dark,
-                      main: $blue-dark, 
+                  main #bg: $blue-dark, 
                     footer: $red-dark
 );
 
@@ -25,7 +25,7 @@ $text_color: (
            %header_border { border: 0; }
       %header__nav_border { border-bottom: $red-light 1px solid; 
                             border-radius: 0 0 5px 5px; }
-             %main_border { border: 0; 
+         %main__bg_border { border: 0; 
                             border-radius: 20px 0 20px 0; }
            %footer_border { border-top: $red-light 1px solid; 
                             border-radius: 5px 5px 0 0; }

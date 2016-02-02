@@ -42,5 +42,6 @@ gem "erb2haml", :group => :development
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
-require 'rbconfig'
-gem 'wdm', '>= 0.1.0' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw|cygwin/i
+gem 'wdm', '>= 0.1.0' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw/i
+
+require 'rbconfig' 
