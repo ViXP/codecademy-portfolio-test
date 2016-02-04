@@ -18,13 +18,26 @@ canvas.style.width = canvasSize.width + 'px'
 canvas.style.height = canvasSize.height + 'px'
 renderer.setViewport(0, 0, canvasSize.width*devicePixelRatio, canvasSize.height*devicePixelRatio)
 
-
-
 geometry = new THREE.SphereGeometry(500,40,40)
 material = new THREE.MeshNormalMaterial( {wireframe: true} )
+
+#loader = new THREE.ImageLoader()
+
+#loader.load(
+#'assets/images/skies.jpg',
+#(image) ->
+#	canvas = document.createElement('canvas')
+#	context = canvas.getContext('2d')
+#	context.drawImage(image, 100, 100)
+#,(xhr) ->
+#	console.log( (xhr.loaded / xhr.total * 100) + '% loaded' )
+#(xhr) ->
+#	console.log( 'An error happened' )
+#)
+
 sphere = new THREE.Mesh(geometry, material)
 scene.add(sphere)
-camera.position.z = 500
+camera.position.z = 200
 
 
 render = ->

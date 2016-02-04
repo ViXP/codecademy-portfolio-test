@@ -27526,3 +27526,180 @@ Started GET "/" for ::1 at 2016-02-02 15:03:04 +0200
 Processing by PagesController#welcome as HTML
   Rendered pages/welcome.html.haml within layouts/application (2.0ms)
 Completed 200 OK in 156ms (Views: 154.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-02-03 12:49:25 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#welcome as HTML
+  Rendered pages/welcome.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 1066ms (Views: 1030.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-e1f5c214889db3674787e683c25715ed2b0ff8187f3df4ae28d67fe0aa1bda9b.css?body=1" for ::1 at 2016-02-03 12:49:27 +0200
+
+
+Started GET "/assets/unslider-dots.self-87847e251f74be8575d9d3bbbe6dbcff93bded9a25b24dd26e898e3af007649b.css?body=1" for ::1 at 2016-02-03 12:49:27 +0200
+
+
+Started GET "/assets/application.self-95c290add38fb427f3b8786a42fb99ba17da380b4f5bcc787b1e35f26c5d5f9d.css?body=1" for ::1 at 2016-02-03 12:49:27 +0200
+
+
+Started GET "/assets/unslider.self-f18a754362d26248a64b3b0582f65b23d50e586d81ec994a8c630efe8e39725f.css?body=1" for ::1 at 2016-02-03 12:49:27 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-03 12:49:27 +0200
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-03 12:49:27 +0200
+
+
+Started GET "/assets/three.min.self-bd7a7dc2b5f582aed0339efae4d1ed034f1c138b7c8820c579257ba3b3d4adba.js?body=1" for ::1 at 2016-02-03 12:49:27 +0200
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-03 12:49:27 +0200
+
+
+Started GET "/assets/unslider-min.self-6e65cf63a531c14bd2aa8148fb0de713552cf0a453ee8372405d97afd3547569.js?body=1" for ::1 at 2016-02-03 12:49:27 +0200
+
+
+Started GET "/assets/logo.self-8e7023a94d11391397c765a54bd3027f584848733d6cfcbc3c13de66b5d35bd2.js?body=1" for ::1 at 2016-02-03 12:49:27 +0200
+
+
+Started GET "/assets/pages.self-b9da6d2587d44bd26cda9e5962c4a5e04fc252d23d263a2debfec92bbf03ad3b.js?body=1" for ::1 at 2016-02-03 12:49:27 +0200
+
+
+Started GET "/assets/works.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-03 12:49:27 +0200
+
+
+Started GET "/assets/application.self-120f3cf1cb67bea53c4a2a57336b34ca04b04b55a55c38cf76ce20a147e5eff9.js?body=1" for ::1 at 2016-02-03 12:49:27 +0200
+
+
+Started GET "/portfolio" for ::1 at 2016-02-03 12:49:47 +0200
+Processing by WorksController#index as HTML
+  [1m[35mWork Load (1.0ms)[0m  SELECT "works".* FROM "works"
+  Rendered works/index.html.haml within layouts/application (12.0ms)
+Completed 200 OK in 159ms (Views: 150.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/contacts" for ::1 at 2016-02-03 12:49:48 +0200
+Processing by PagesController#contacts as HTML
+  Rendered pages/contacts.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 163ms (Views: 160.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-02-03 12:55:07 +0200
+Processing by PagesController#welcome as HTML
+  Rendered pages/welcome.html.haml within layouts/application (1.0ms)
+Completed 200 OK in 1243ms (Views: 1242.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.self-357a0a8c2cfd7776df17c88a9b5e4c8835bede76c06b6f33e2157e7f1c8d4b07.js?body=1" for ::1 at 2016-02-03 12:55:09 +0200
+
+
+Started GET "/" for ::1 at 2016-02-03 12:55:53 +0200
+Processing by PagesController#welcome as HTML
+  Rendered pages/welcome.html.haml within layouts/application (1.0ms)
+Completed 200 OK in 777ms (Views: 774.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-95c290add38fb427f3b8786a42fb99ba17da380b4f5bcc787b1e35f26c5d5f9d.css?body=1" for ::1 at 2016-02-03 12:55:54 +0200
+
+
+Started GET "/assets/main.self-e1f5c214889db3674787e683c25715ed2b0ff8187f3df4ae28d67fe0aa1bda9b.css?body=1" for ::1 at 2016-02-03 12:55:54 +0200
+
+
+Started GET "/assets/unslider.self-f18a754362d26248a64b3b0582f65b23d50e586d81ec994a8c630efe8e39725f.css?body=1" for ::1 at 2016-02-03 12:55:54 +0200
+
+
+Started GET "/assets/unslider-dots.self-87847e251f74be8575d9d3bbbe6dbcff93bded9a25b24dd26e898e3af007649b.css?body=1" for ::1 at 2016-02-03 12:55:54 +0200
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-03 12:55:54 +0200
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-03 12:55:54 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-03 12:55:54 +0200
+
+
+Started GET "/assets/three.min.self-bd7a7dc2b5f582aed0339efae4d1ed034f1c138b7c8820c579257ba3b3d4adba.js?body=1" for ::1 at 2016-02-03 12:55:54 +0200
+
+
+Started GET "/assets/unslider-min.self-6e65cf63a531c14bd2aa8148fb0de713552cf0a453ee8372405d97afd3547569.js?body=1" for ::1 at 2016-02-03 12:55:54 +0200
+
+
+Started GET "/assets/logo.self-b47037e4f0f31100111dcc197208165d725d09f684ceb98058add7a23431489f.js?body=1" for ::1 at 2016-02-03 12:55:54 +0200
+
+
+Started GET "/assets/pages.self-b9da6d2587d44bd26cda9e5962c4a5e04fc252d23d263a2debfec92bbf03ad3b.js?body=1" for ::1 at 2016-02-03 12:55:54 +0200
+
+
+Started GET "/assets/works.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-03 12:55:54 +0200
+
+
+Started GET "/assets/application.self-120f3cf1cb67bea53c4a2a57336b34ca04b04b55a55c38cf76ce20a147e5eff9.js?body=1" for ::1 at 2016-02-03 12:55:54 +0200
+
+
+Started GET "/" for ::1 at 2016-02-03 13:07:06 +0200
+Processing by PagesController#welcome as HTML
+  Rendered pages/welcome.html.haml within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 949ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: [stdin]:26:13: unexpected newline):
+    24:       = link_to image_tag("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABKUlEQVRIS+2WYQ3CMBCFqQKQAApgCsACCsABc8DmgDkYDnAAEoYDcAAKyjsoSXftrR2wEBKW9Afr9X307l071WOP1jrDqwXGAKPEyJVSFx4X+1vZgUZ8zRYXAKSxgjyOAyoEjJ0gED4F0D4h6P8Bj8SgyN9JEdiHQJFPmK9QqiLkIu8OWjhoB8jcjuc2fRdA2iNAaEf3pwtAAgD1UyeAI8QnXaToaoyQ2umJTtFPdTIdy32PLWvOaGFbx0XUUFOPAN0JWRthyUUbTKwEIQJseRFDUN4HMyzYhxYJ89RcJf5ALtqUJnDeSWmK5dbS6VwkAAyhRJ3oK3YMhA69xFuD50tAqBtpJ69Aat0sXoVmJ6XgqqadNKeIrwSICr/EoF05HwRW/NkUObM1blV2eRlg4oZcAAAAAElFTkSuQmCC", alt: 'Twitter'), 'https://twitter.com/CyrilViXP'
+    25:       %br
+    26:       &copy; ViXP 2015
+    27:     = javascript_include_tag 'application', 'data-turbolinks-track' => true
+  app/views/layouts/application.html.haml:27:in `_app_views_layouts_application_html_haml___174833289_64023200'
+
+
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1020.9ms)
+
+
+Started GET "/" for ::1 at 2016-02-03 13:08:18 +0200
+Processing by PagesController#welcome as HTML
+  Rendered pages/welcome.html.haml within layouts/application (0.0ms)
+Completed 200 OK in 424ms (Views: 423.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-e1f5c214889db3674787e683c25715ed2b0ff8187f3df4ae28d67fe0aa1bda9b.css?body=1" for ::1 at 2016-02-03 13:08:19 +0200
+
+
+Started GET "/assets/application.self-95c290add38fb427f3b8786a42fb99ba17da380b4f5bcc787b1e35f26c5d5f9d.css?body=1" for ::1 at 2016-02-03 13:08:19 +0200
+
+
+Started GET "/assets/unslider-dots.self-87847e251f74be8575d9d3bbbe6dbcff93bded9a25b24dd26e898e3af007649b.css?body=1" for ::1 at 2016-02-03 13:08:19 +0200
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-03 13:08:19 +0200
+
+
+Started GET "/assets/unslider.self-f18a754362d26248a64b3b0582f65b23d50e586d81ec994a8c630efe8e39725f.css?body=1" for ::1 at 2016-02-03 13:08:19 +0200
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-03 13:08:19 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-03 13:08:19 +0200
+
+
+Started GET "/assets/three.min.self-bd7a7dc2b5f582aed0339efae4d1ed034f1c138b7c8820c579257ba3b3d4adba.js?body=1" for ::1 at 2016-02-03 13:08:19 +0200
+
+
+Started GET "/assets/unslider-min.self-6e65cf63a531c14bd2aa8148fb0de713552cf0a453ee8372405d97afd3547569.js?body=1" for ::1 at 2016-02-03 13:08:19 +0200
+
+
+Started GET "/assets/logo.self-b47037e4f0f31100111dcc197208165d725d09f684ceb98058add7a23431489f.js?body=1" for ::1 at 2016-02-03 13:08:19 +0200
+
+
+Started GET "/assets/pages.self-b9da6d2587d44bd26cda9e5962c4a5e04fc252d23d263a2debfec92bbf03ad3b.js?body=1" for ::1 at 2016-02-03 13:08:19 +0200
+
+
+Started GET "/assets/works.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-03 13:08:19 +0200
+
+
+Started GET "/assets/application.self-120f3cf1cb67bea53c4a2a57336b34ca04b04b55a55c38cf76ce20a147e5eff9.js?body=1" for ::1 at 2016-02-03 13:08:19 +0200
