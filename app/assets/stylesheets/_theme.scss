@@ -2,34 +2,33 @@
 
 /* Background colors */
 $bg_color: (
-                      body: $black, 
-                header nav: $red-dark,
-                  main #bg: $blue-dark, 
-                    footer: $red-dark
+                          body: $black, 
+           'header .separator': $red-dark,
+                      main #bg: $blue-dark, 
+                        footer: $red-dark
 );
 
 /* Text colors */
 $text_color: (
-                      body: $green-light, 
-                    header: $blue-light,
-              header nav a: $red-light,
-      'header nav a:hover': $green,
-                      main: $red-light, 
-                    footer: $white
+                          body: $green-light, 
+                        header: $blue-light,
+                  header nav a: $red-light,
+          'header nav a:hover': $green,
+                          main: $red-light, 
+                        footer: $white
 );
 
 /* Main font */
-              $font-family: 'Raleway', sans-serif;
+                  $font-family: 'Raleway', sans-serif;
 
 /* Borders */
-           %header_border { border: 0; }
-      %header__nav_border { border-bottom: $red-light 1px solid; 
-                            border-radius: 0 0 5px 5px; }
-         %main__bg_border { border: 0; 
-                            border-radius: 20px 0 20px 0; }
-           %footer_border { border-top: $red-light 1px solid; 
-                            border-radius: 5px 5px 0 0; }
+     %header_separator_border { border-bottom: $red-light 1px solid; 
+                                border-radius: 0 0 5px 5px; }
+             %main__bg_border { border: 0; 
+                                border-radius: 20px 0 20px 0; }
+               %footer_border { border-top: $red-light 1px solid; 
+                                border-radius: 5px 5px 0 0; }
 
 /* Minimum devices width */
-      $mobile-device-width: 320px;
-      $tablet-device-width: 640px;
+          $mobile-device-width: 320px;
+          $tablet-device-width: 640px;

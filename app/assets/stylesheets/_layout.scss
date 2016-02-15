@@ -20,30 +20,49 @@ html {
 }
 
 header {
-  @extend %header_border;
 	padding: 0;
-  margin: 0; 
+  margin: 0;
 
-  & nav {  
-    @extend %header__nav_border;
+  & .separator {    
+    @extend %header_separator_border;
+  }
+
+  & .separator, & nav {
+    height: 60px;
+    width: 100%;    
+  }
+
+  & nav {
+    background: rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 60px;  
   	padding: 10px 20px;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     line-height: 2.2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
 
-  	& a:hover {
-    	text-decoration: none;
+    & a {
+      padding-right: 5px;
+      z-index: 99;
+
+    	&:hover {
+      	text-decoration: underline;
+      }
     }
   }
 
-  & h1 {    
-    vertical-align: middle;
-    font-size: 5rem;
-    line-height: 5rem;
-    padding: 10px;
-    margin: 0;
-    display: inline-block;
+  & #logo {    
+    width: 40%;
+    margin: 30px;
+    fill: darken($white, 2%);
+    &:hover {
+      fill: $white;
+    }
   }
 }
+
 
 main {  
   height: 100%;
